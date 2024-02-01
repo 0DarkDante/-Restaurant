@@ -150,7 +150,7 @@ header {
   margin-right: 31px;
   background-color: #fff;
   margin-top: -80px;
-  padding: 0px 10px;
+  padding: 10px 10px;
 }
 
 .card-image {
@@ -170,6 +170,7 @@ header {
 
 .card-title span {
   color: #D67E35;
+  padding-left: 5px;
 }
 
 .card-desc {
@@ -178,4 +179,80 @@ header {
   font-size: 26px;
   font-weight: 400;
   color: #656363;
+}
+
+.history {
+  margin-top: 166px;
+}
+
+.history-title {
+  font-family: "Tinos", serif;
+  font-size: 54px;
+  font-weight: 400;
+  width: 444px;
+  text-align: center;
+
+  margin-bottom: 21px;
+}
+
+.history-title span {
+  color: #D67E35;
+}
+
+.history-desc {
+  color: #656363;
+  font-size: 16px;
+  width: 444px;
+  text-align: center;
+}
+
+.history-number {
+  display: flex;
+  width: 444px;
+  justify-content: center;
+  margin-top: 40px;  
+  margin-left: 30px;
+}
+
+.number-item {
+  margin-right: 60px;
+  text-align: center;
+  font-size: 40px;
+  color: #BC9060;
+}
+
+.number-item span{
+  display: block;
+  color: #000;
+  font-size: 20px;
+}
+
+.history-holder {
+  display: flex;
+  justify-content: space-between;
+}
+
+.history-imgages {
+  position: relative;
+}
+
+.images-1 {
+  position: absolute;
+  z-index: 10;
+  top: 54px;
+  right: 302px;
+}
+
+.images-2 {
+  position: absolute;
+  z-index: 5;
+  top: -20px;
+  right: 90px;
+}
+
+.images-3 {
+  position: absolute;
+  z-index: 5;
+  top: 175px;
+  right: -4px;
 }
