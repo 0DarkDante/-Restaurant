@@ -183,6 +183,7 @@ header {
 
 .history {
   margin-top: 166px;
+  padding-bottom: 200px;
 }
 
 .history-title {
@@ -255,4 +256,37 @@ header {
   z-index: 5;
   top: 175px;
   right: -4px;
+}
+
+.black-block {
+  background-image: url(IMG/black-bg.jpg);
+  padding: 80px 0px;
+}
+
+.left-title {
+  color: #D67E34;
+  font-family: "Tinos", serif;
+  font-size: 52px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.left-text {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.right-btn {
+  background-color: #FF7400;
+  color: #fff;
+  text-decoration: none;
+  padding: 14px 18px;
+  font-weight: 700;
+}
+
+.block-holder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
