@@ -476,6 +476,10 @@ header {
   margin-bottom: 20px;
 }
 
+.menu-img {
+  width: 90%;
+}
+
 .cook {
   padding-bottom: 100px;
 }

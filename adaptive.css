@@ -1,0 +1,82 @@
+@media (max-width: 1500px) {
+  .galery-content {
+    display: block;
+  }
+
+  .img-gal,
+  .galery-up,
+  .galery-down {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .img-gal {
+    margin-bottom: 20px;
+  }
+
+  .galery-left {
+    margin-right: 0;
+  }
+  .menu-items {
+    display: block;
+  }
+
+  .menu-item {
+    margin: 20px auto;
+  }
+}
+
+
+
+@media (max-width: 1300px) {
+  .menu-items {
+    display: block;
+  }
+
+  .menu-item {
+    margin: 20px auto;
+  }
+
+  .menu-item img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+  }
+
+  .header-title {
+    position: static;
+  }
+
+  .header-suptitle:before,
+  .header-suptitle:after {
+    content: none;
+  }
+
+  .cook-content {
+    display: block;
+  }
+
+  .cook-content img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+  }
+
+  .block-holder {
+    display: block;
+  }
+
+  .left-title,
+  .left-text,
+  .right-button {
+    text-align: center;
+  }
+
+  .right-button {
+    margin-top: 30px;
+  }
+
+}
