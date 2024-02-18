@@ -79,4 +79,48 @@
     margin-top: 30px;
   }
 
+  .history-imgages {
+    display: none;
+  }
+
+  .history-title,
+  .history-desc,
+  .history-number {
+    width: auto;
+  }
+}
+
+@media (max-width: 1185px) {
+  .burger-menu {
+    display: block;
+  }
+
+  .nav,
+  .cart,
+  .phone,
+  .btn {
+    display: none;
+  }
+
+  .header-line {
+    justify-content: space-between;
+  }
+
+  .burgers-images {
+    display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+
+  .cards-holder {
+    display: block;
+  }
+
+  .card {
+    width: 100%;
+    margin-top: 30px;
+    padding-bottom: 20px;
+  }
+
 }

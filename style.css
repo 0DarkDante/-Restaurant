@@ -509,3 +509,7 @@ footer {
   color: #fff;
   text-align: center;
 }
+
+.burger-menu {
+  display: none;
+}
